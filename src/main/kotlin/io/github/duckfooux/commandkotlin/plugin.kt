@@ -16,7 +16,7 @@ class plugin : JavaPlugin(), Listener, CommandExecutor {
 
     override fun onEnable() {
         logger.info("시작")
-        getCommand("jammand")!!.setExecutor(this)
+        getCommand("Kommand")!!.setExecutor(this)
         saveDefaultConfig() // 이건 config.yml 있을때 쓰기
         saveResource("config.yml", false)
 
@@ -28,11 +28,11 @@ class plugin : JavaPlugin(), Listener, CommandExecutor {
             val item = createItem(Material.REDSTONE_LAMP, "BOMM")
 
             if (args.isEmpty()) {
-                player.sendMessage("${ChatColor.RED}JammandㅣKommand")
-                player.sendMessage("jammand")
+                player.sendMessage("${ChatColor.RED}KommandㅣJammand")
+                player.sendMessage("Kommand")
             } else {
-                if (args[0].equals("Kammand", ignoreCase = true)) {
-                    player.sendMessage("${ChatColor.BLUE}kammand")
+                if (args[0].equals("Jammand", ignoreCase = true)) {
+                    player.sendMessage("${ChatColor.BLUE}Jammand")
                     player.inventory.addItem(item)
                 }
             }

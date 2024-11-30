@@ -1,3 +1,8 @@
+![Kotlin 1.8.22](https://img.shields.io/badge/Kotlin-1.8.22-blue)
+![Gradle 8.2.1](https://img.shields.io/badge/Gradle-8.2.1-blue)
+
+
+
 # 구성
 ```
 example-plugin

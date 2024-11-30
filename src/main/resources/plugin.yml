@@ -6,7 +6,7 @@ author: duckfoo
 libraries:
   - io.github.duckfoo:oncommandkotlin-core:<version>
 commands:
-    Jammand:
+    Kommand:
       description: Jammand
     iv:
       description: iv

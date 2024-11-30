@@ -1,0 +1,7 @@
+name: oncommandkotlin
+version: '$version'
+main: io.github.duckfooux.commandkotlin.plugin
+api-version: '1.20'
+author: duckfoo
+libraries:
+  - io.github.duckfoo:oncommandkotlin-core:<version>

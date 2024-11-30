@@ -64,7 +64,7 @@ commands:
 ```
 public class TestPlugin extends JavaPlugin {
 
-    @Override
+    override
     public void onEnable() {
         saveDefaultConfig()
 
